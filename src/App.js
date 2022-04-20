@@ -1,8 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
-  console.log("render")
+  console.log("render");
   return (
     <div className="App">
       <header className="App-header">

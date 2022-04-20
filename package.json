@@ -18,6 +18,12 @@
     "eject": "react-scripts eject",
     "precommit": "pretty-quick --staged"
   },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "eslint --fix"
+    ]
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
